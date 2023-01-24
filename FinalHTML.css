@@ -48,7 +48,7 @@ p {
     background-color: rgb(22, 11, 70);
     padding: 10px;
     font-family: sans-serif;
-    -webkit-animation: movenavtext 5.75s;
+    -webkit-animation: moveNavText 5.75s;
     animation: moveNavText 5.75s;
 }
 
@@ -58,12 +58,12 @@ p {
     font-weight: bold;
 }
 
-@keyframes movenav {
+@keyframes moveNav {
     from {left: -100vw;}
     to {left: 0vw;} 
 }
 
-@keyframes movenavtext {
+@keyframes moveNavText {
     from {top: -100vw;} 
     to {top: 0vw;} 
 }
