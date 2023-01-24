@@ -35,6 +35,8 @@ p {
     width: 100%;
     top: 0;
     left: 0;
+    -webkit-animation: moveNav 5s;
+    animation: moveNav 5s;
     
 }
 
@@ -46,6 +48,8 @@ p {
     background-color: rgb(22, 11, 70);
     padding: 10px;
     font-family: sans-serif;
+    -webkit-animation: movenavtext 5.75s;
+    animation: moveNavText 5.75s;
 }
 
 .navbar a:hover {
@@ -54,6 +58,15 @@ p {
     font-weight: bold;
 }
 
+@keyframes movenav {
+    from {left: -100vw;}
+    to {left: 0vw;} 
+}
+
+@keyframes movenavtext {
+    from {top: -100vw;} 
+    to {top: 0vw;} 
+}
 /*video*/
 
 .video-container {
@@ -162,17 +175,3 @@ input[type=submit]:hover {
     text-align: left;
     padding: 20px;
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
