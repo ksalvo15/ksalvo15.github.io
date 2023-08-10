@@ -4,3 +4,5 @@ This is my live website that I am continuing to update throughout my course at t
 * HTML
 * CSS
 * JavaScript
+* Python
+* C#
